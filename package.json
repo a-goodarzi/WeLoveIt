@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/numb95/WeLoveIt.git"
+    "url": "git+https://github.com/a-goodarzi/WeLoveIt.git"
   },
   "keywords": [
     "hugo",
@@ -36,7 +36,7 @@
   "author": "Dillon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/numb95/WeLoveIt/issues"
+    "url": "https://github.com/a-goodarzi/WeLoveIt/issues"
   },
-  "homepage": "https://github.com/numb95/WeLoveIt#readme"
+  "homepage": "https://github.com/a-goodarzi/WeLoveIt#readme"
 }

@@ -92,7 +92,7 @@ math:
 
 WeLoveIt is licensed under the **MIT** license.
 
-Check the [LICENSE file](https://github.com/numb95/WeLoveIt/blob/master/LICENSE) for details.
+Check the [LICENSE file](https://github.com/a-goodarzi/WeLoveIt/blob/master/LICENSE) for details.
 
 ## Special Thanks
 

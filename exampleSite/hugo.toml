@@ -89,7 +89,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/numb95/WeLoveIt"
+  gitRepo = "https://github.com/a-goodarzi/WeLoveIt"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
@@ -886,7 +886,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/numb95/WeLoveIt"
+        url = "https://github.com/a-goodarzi/WeLoveIt"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -983,7 +983,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/numb95/WeLoveIt"
+        url = "https://github.com/a-goodarzi/WeLoveIt"
         title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]

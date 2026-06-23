@@ -52,21 +52,21 @@ cd my_website
 
 ### 2.2 安装主题
 
-**WeLoveIt** 主题的仓库是: [https://github.com/numb95/WeLoveIt](https://github.com/numb95/WeLoveIt).
+**WeLoveIt** 主题的仓库是: [https://github.com/a-goodarzi/WeLoveIt](https://github.com/a-goodarzi/WeLoveIt).
 
 你可以下载主题的 [发布版本 :(far fa-file-archive): .zip 文件](https://github.com/a-goodarzi/WeLoveIt/releases) 并且解压放到 `themes` 目录.
 
 另外, 也可以直接把这个主题克隆到 `themes` 目录:
 
 ```bash
-git clone https://github.com/numb95/WeLoveIt.git themes/WeLoveIt
+git clone https://github.com/a-goodarzi/WeLoveIt.git themes/WeLoveIt
 ```
 
 或者, 初始化你的项目目录为 git 仓库, 并且把主题仓库作为你的网站目录的子模块:
 
 ```bash
 git init
-git submodule add https://github.com/numb95/WeLoveIt.git themes/WeLoveIt
+git submodule add https://github.com/a-goodarzi/WeLoveIt.git themes/WeLoveIt
 ```
 
 {{< admonition note "主题的兼容性" >}}
@@ -133,7 +133,7 @@ hasCJKLanguage = true
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false 是必要的设置 (https://github.com/numb95/WeLoveIt/issues/158)
+    # false 是必要的设置 (https://github.com/a-goodarzi/WeLoveIt/issues/158)
     noClasses = false
 ```
 
@@ -783,7 +783,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     lineNos = true
     lineNumbersInTable = true
     # false 是必要的设置
-    # ({{< link "https://github.com/numb95/WeLoveIt/issues/158" >}})
+    # ({{< link "https://github.com/a-goodarzi/WeLoveIt/issues/158" >}})
     noClasses = false
   # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
   [markup.goldmark]

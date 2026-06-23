@@ -14,7 +14,7 @@ and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt) and  [LoveIt Theme](htt
 Since the four themes have a similar look, if you have questions about their differences,
 read [Why choose WeLoveIt](#why-choose-WeLoveIt) so that you can choose the one that works best for you.
 
-![Hugo Theme WeLoveIt](https://github.com/numb95/WeLoveIt/raw/master/images/Apple-Devices-Preview.png)
+![Hugo Theme WeLoveIt](https://github.com/a-goodarzi/WeLoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## [Demo Site](https://hugoWeLoveIt.com/)
 
@@ -170,15 +170,15 @@ WeLoveIt supports the following languages:
 
 [Languages Compatibility](https://hugoWeLoveIt.com/theme-documentation-basics/#language-compatibility)
 
-## [Roadmap](https://github.com/numb95/WeLoveIt/projects/1)
+## [Roadmap](https://github.com/a-goodarzi/WeLoveIt/projects/1)
 
 ## Questions, ideas, bugs, pull requests
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/numb95/WeLoveIt/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/a-goodarzi/WeLoveIt/issues).
 
 ## License
 
-WeLoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/numb95/WeLoveIt/blob/master/LICENSE) for details.
+WeLoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/a-goodarzi/WeLoveIt/blob/master/LICENSE) for details.
 
 ## Special Thanks
 
@@ -218,8 +218,8 @@ Thanks to the authors of following resources included in the theme:
 If you enjoy the theme, please consider buying me a coffee ☕️.
 
 * [PayPal](https://paypal.me/dillonzq)
-* [Alipay](https://github.com/numb95/WeLoveIt/raw/master/images/Alipay.jpg)
-* [Wechat](https://github.com/numb95/WeLoveIt/raw/master/images/Wechat.jpg)
+* [Alipay](https://github.com/a-goodarzi/WeLoveIt/raw/master/images/Alipay.jpg)
+* [Wechat](https://github.com/a-goodarzi/WeLoveIt/raw/master/images/Wechat.jpg)
 
 Thanks! ❤️
 

@@ -1,3 +1,3 @@
-module github.com/numb95/WeLoveIt
+module github.com/a-goodarzi/WeLoveIt
 
 go 1.18

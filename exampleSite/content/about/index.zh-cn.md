@@ -92,7 +92,7 @@ math:
 
 WeLoveIt 根据 **MIT** 许可协议授权。
 
-更多信息请查看 [LICENSE 文件](https://github.com/numb95/WeLoveIt/blob/master/LICENSE)。
+更多信息请查看 [LICENSE 文件](https://github.com/a-goodarzi/WeLoveIt/blob/master/LICENSE)。
 
 ## 特别感谢
 

@@ -59,14 +59,14 @@ You can download the [release :(far fa-file-archive): .zip file](https://github.
 Alternatively, clone this repository to the `themes` directory:
 
 ```bash
-git clone https://github.com/numb95/WeLoveIt.git themes/WeLoveIt
+git clone https://github.com/a-goodarzi/WeLoveIt.git themes/WeLoveIt
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
 ```bash
 git init
-git submodule add https://github.com/numb95/WeLoveIt.git themes/WeLoveIt
+git submodule add https://github.com/a-goodarzi/WeLoveIt.git themes/WeLoveIt
 ```
 
 {{< admonition note "LoveIt theme's compatibility" >}}
@@ -131,7 +131,7 @@ languageName = "English"
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false is a necessary configuration (https://github.com/numb95/WeLoveIt/issues/158)
+    # false is a necessary configuration (https://github.com/a-goodarzi/WeLoveIt/issues/158)
     noClasses = false
 ```
 
@@ -781,7 +781,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     lineNos = true
     lineNumbersInTable = true
     # false is a necessary configuration
-    # ({{< link "https://github.com/numb95/WeLoveIt/issues/158" >}})
+    # ({{< link "https://github.com/a-goodarzi/WeLoveIt/issues/158" >}})
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
