@@ -62,6 +62,9 @@ other = "pt_BR"
 
 [giscusLang]
 other = "en"
+
+[walineLang]
+other = "pt-BR"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -161,6 +164,9 @@ other = "Abstrato"
 
 [info]
 other = "Info"
+
+[todo]
+other = "A fazer"
 
 [tip]
 other = "Dica"

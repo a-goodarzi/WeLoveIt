@@ -63,6 +63,9 @@ other = "te_IN"
 
 [giscusLang]
 other = "en"
+
+[walineLang]
+other = "en"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -160,6 +163,9 @@ other = "సారంశం"
 
 [info]
 other = "సమాచారం"
+
+[todo]
+other = "చేయాల్సిన పనులు"
 
 [tip]
 other = "సూచన"

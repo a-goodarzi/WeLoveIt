@@ -23,7 +23,7 @@ This article offers a sample of basic Markdown syntax that can be used in Hugo c
 <!--more-->
 
 {{< admonition >}}
-This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).
+This article is a shameful copy of the great [Grav original page](https://learn.getgrav.org/content/markdown).
 
 If you want to know about the extended Markdown syntax of **WeLoveIt** theme, please read [extended Markdown syntax page](../theme-documentation-content#extended-markdown-syntax).
 {{< /admonition >}}
@@ -54,7 +54,7 @@ John Gruber, the author of Markdown, puts it like this:
 Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like!
 
 {{< admonition tip >}}
-:(far fa-bookmark fa-fw): Bookmark this page for easy future reference!
+:(far fa-bookmark): Bookmark this page for easy future reference!
 {{< /admonition >}}
 
 ## 1 Headings

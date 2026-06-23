@@ -62,6 +62,9 @@ other = "ar_AR"
 
 [giscusLang]
 other = "en"
+
+[walineLang]
+other = "en"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -158,6 +161,9 @@ other = "مقدمة"
 
 [info]
 other = "معلومات"
+
+[todo]
+other = "مهم"
 
 [tip]
 other = "نصيحة"

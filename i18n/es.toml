@@ -17,7 +17,7 @@ other = "Artículos"
 
 # === Taxonomy ===
 [allSome]
-other = "Todos los {{ .Some }}"
+other = "Todas las {{ .Some }}"
 
 [tag]
 other = "Etiqueta"
@@ -62,6 +62,9 @@ other = "es_MX"
 
 [giscusLang]
 other = "es"
+
+[walineLang]
+other = "en"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -161,6 +164,9 @@ other = "Resumen"
 
 [info]
 other = "Información"
+
+[todo]
+other = "Pendiente"
 
 [tip]
 other = "Consejo"

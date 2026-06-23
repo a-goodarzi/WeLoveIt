@@ -62,6 +62,9 @@ other = "ca_ES"
 
 [giscusLang]
 other = "en"
+
+[walineLang]
+other = "en"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -158,6 +161,9 @@ other = "Resum"
 
 [info]
 other = "Informació"
+
+[todo]
+other = "Pendent"
 
 [tip]
 other = "Consell"

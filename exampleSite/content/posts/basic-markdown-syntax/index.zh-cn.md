@@ -23,7 +23,7 @@ lightgallery: true
 <!--more-->
 
 {{< admonition >}}
-这篇文章借鉴了一篇很棒的[来自 Grav 的文章](http://learn.getgrav.org/content/markdown).
+这篇文章借鉴了一篇很棒的[来自 Grav 的文章](https://learn.getgrav.org/content/markdown).
 
 如果你想了解 **WeLoveIt** 主题的扩展 Markdown 语法, 请阅读[扩展 Markdown 语法页面](../theme-documentation-content#extended-markdown-syntax).
 {{< /admonition >}}
@@ -54,7 +54,7 @@ John Gruber, Markdown 的作者如是说:
 话不多说, 我们来回顾一下 Markdown 的主要语法以及生成的 HTML 样式!
 
 {{< admonition tip >}}
-:(far fa-bookmark fa-fw): 将此页保存为书签，以备将来参考!
+:(far fa-bookmark): 将此页保存为书签，以备将来参考!
 {{< /admonition >}}
 
 ## 1 标题

@@ -1,10 +1,9 @@
-# WeLoveIt Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-WeLoveIt/deploys)
+# WeLoveIt Theme | Hugo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/WeLoveIt?style=flat-square)](https://github.com/numb95/WeLoveIt/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/WeLoveIt?style=flat-square)](https://github.com/numb95/WeLoveIt/blob/master/LICENSE)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dillonzq_WeLoveIt&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=dillonzq_WeLoveIt)
-[![CircleCI](https://circleci.com/gh/dillonzq/WeLoveIt/tree/master.svg?style=svg)](https://circleci.com/gh/dillonzq/WeLoveIt/tree/master)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/a-goodarzi/WeLoveIt?style=flat-square)](https://github.com/a-goodarzi/WeLoveIt/releases)
+[![Hugo](https://img.shields.io/badge/Hugo-%5E0.128.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
+[![License](https://img.shields.io/github/license/a-goodarzi/WeLoveIt?style=flat-square)](https://github.com/a-goodarzi/WeLoveIt/blob/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-WeLoveIt/deploys)
 
 
 > **WeLoveIt** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
@@ -87,8 +86,8 @@ I hope you will WeLoveIt ❤️!
 
 * **Gravatar** supported by [Gravatar](https://gravatar.com)
 * Local **Avatar** supported
-* Up to **73** social links supported
-* Up to **24** share sites supported
+* Up to **84** social links supported
+* Up to **27** share sites supported
 * **Disqus** comment system supported by [Disqus](https://disqus.com)
 * **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
 * **Valine** comment system supported by [Valine](https://valine.js.org/)
@@ -130,6 +129,14 @@ Build Documentation Locally:
 hugo server --source=exampleSite
 ```
 
+## Compatibility
+
+| LoveIt branch or version | Supported Hugo versions |
+|:-------------------------|:-----------------------:|
+| master(Unstable)         |       >= 0.146.0        |
+| **0.3.X(Recommended)**   |    0.128.0 - 0.145.0    |
+| 0.2.X(Outdated)          |    0.68.0 - 0.127.0     |
+
 ## Multilingual and i18n
 
 WeLoveIt supports the following languages:
@@ -139,7 +146,7 @@ WeLoveIt supports the following languages:
 * Traditional Chinese
 * French
 * Polish
-* Brazilian Portuguese
+* Portuguese (Brazil)
 * Italian
 * Spanish
 * German
@@ -155,7 +162,11 @@ WeLoveIt supports the following languages:
 * Turkish
 * Korean
 * Hindi
-* [Contribute with a new language](https://github.com/numb95/WeLoveIt/pulls)
+* Dutch
+* Bengali
+* Japanese
+* Persian (Farsi)
+* [Contribute with a new language](https://github.com/a-goodarzi/WeLoveIt/pulls)
 
 [Languages Compatibility](https://hugoWeLoveIt.com/theme-documentation-basics/#language-compatibility)
 
@@ -173,7 +184,7 @@ WeLoveIt is licensed under the **MIT** license. Check the [LICENSE file](https:/
 
 Thanks to the authors of following resources included in the theme:
 
-* [normalize.css](https://github.com/necolas/normalize.css)
+* [modern-normalize](https://github.com/sindresorhus/modern-normalize)
 * [Font Awesome](https://fontawesome.com/)
 * [Simple Icons](https://github.com/simple-icons/simple-icons)
 * [Animate.css](https://daneden.github.io/animate.css/)
