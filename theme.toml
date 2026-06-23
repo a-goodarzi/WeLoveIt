@@ -1,4 +1,5 @@
 name = "WeLoveIt"
+version = "0.1.0"
 license = "MIT"
 licenselink = "https://github.com/a-goodarzi/WeLoveIt/blob/master/LICENSE"
 description = "A Clean, Elegant but Advanced Hugo Theme for Hugo."
