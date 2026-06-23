@@ -61,6 +61,9 @@ other = "fa_IR"
 
 [giscusLang]
 other = "fa"
+
+[walineLang]
+other = "fa"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -158,6 +161,9 @@ other = "چکیده"
 [info]
 other = "اطلاعات"
 
+[todo]
+other = "انجام‌دادنی"
+
 [tip]
 other = "نکته"
 
@@ -195,4 +201,7 @@ other = "تغییر کرده"
 
 [deleted]
 other = "حذف شده"
+
+[deprecated]
+other = "منسوخ شده"
 # === shortcodes/version.html ===
