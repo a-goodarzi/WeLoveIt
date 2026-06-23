@@ -8,6 +8,7 @@ html {
 
   scroll-behavior: smooth;
 
+  main[id],
   main [id] {
     scroll-margin-top: calc(var(--header-height) + .5rem);
   }
@@ -53,6 +54,8 @@ body {
 
 @include link(true, true);
 
+@import "../_partial/focus";
+@import "../_partial/skip-link";
 @import "../_partial/mask";
 @import "../_partial/img";
 @import "../_partial/icon";
