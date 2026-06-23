@@ -129,7 +129,7 @@
     });
     document.getElementById("consent-overlay").addEventListener("click",function(e) {
         if (!document.querySelector("#consent-overlay > div").contains(e.target)){
-            this.classList.toggle('active');
+            this.classList.remove('active');
         }
     });
 </script>
