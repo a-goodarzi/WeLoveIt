@@ -27,8 +27,17 @@
     cursor: pointer;
   }
 
-  &:active, &:focus, &:hover {
+  &:active, &:hover {
     outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $single-link-color;
+    outline-offset: 2px;
+
+    [theme=dark] & {
+      outline-color: $single-link-color-dark;
+    }
   }
 
   [theme=dark] & {

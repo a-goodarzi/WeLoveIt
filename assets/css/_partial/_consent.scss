@@ -21,7 +21,7 @@
   }
 
   span {
-    margin-right: .75rem;
+    margin-inline-end: .75rem;
 
     a {
       color: $single-link-color;
@@ -46,7 +46,7 @@
   button.btn {
     display: inline-block;
     cursor: pointer;
-    margin-left: .5rem;
+    margin-inline-start: .5rem;
     padding: .35rem .9rem;
     border-radius: .25rem;
     font-size: .85rem;
@@ -55,6 +55,15 @@
     background-color: transparent;
     color: $global-font-color;
     @include transition(background-color .2s ease, color .2s ease, border-color .2s ease);
+
+    &:focus-visible {
+      outline: 2px solid $single-link-color;
+      outline-offset: 2px;
+
+      [theme=dark] & {
+        outline-color: $single-link-color-dark;
+      }
+    }
 
     [theme=dark] & {
       border-color: $global-border-color-dark;
@@ -96,17 +105,17 @@
   }
 
   @media (max-width: 680px) {
-    text-align: left;
+    text-align: start;
 
     span {
       display: block;
       margin-bottom: .75rem;
-      margin-right: 0;
+      margin-inline-end: 0;
     }
 
     button.btn {
-      margin-left: 0;
-      margin-right: .4rem;
+      margin-inline-start: 0;
+      margin-inline-end: .4rem;
     }
   }
 }
@@ -202,7 +211,7 @@
     display: inline-block;
     cursor: pointer;
     padding: .4rem 1rem;
-    margin-right: .5rem;
+    margin-inline-end: .5rem;
     border-radius: .25rem;
     font-size: .875rem;
     font-family: inherit;
@@ -214,6 +223,15 @@
     [theme=dark] & {
       border-color: $global-border-color-dark;
       color: $global-font-color-dark;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $single-link-color;
+      outline-offset: 2px;
+
+      [theme=dark] & {
+        outline-color: $single-link-color-dark;
+      }
     }
 
     &:hover {
@@ -228,7 +246,7 @@
       background-color: $single-link-color;
       border-color: $single-link-color;
       color: #fff;
-      margin-right: 0;
+      margin-inline-end: 0;
 
       &:hover {
         background-color: $single-link-hover-color;

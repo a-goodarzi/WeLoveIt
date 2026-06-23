@@ -45,6 +45,7 @@
                         <input type="text" placeholder="{{
                         .Site.Params.search.placeholder | default (T
                         `searchPlaceholder`) }}" id="search-input-desktop"
+                        aria-label="{{ T `search` }}"
                         style="direction: {{ default `ltr`
                         .Language.Direction }}">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="{{ T `search` }}">
@@ -64,7 +65,7 @@
                 {{- if hugo.IsMultilingual -}}
                 <a href="javascript:void(0);" class="menu-item language" title="{{ T "selectLanguage" }}">
                     <i class="fa fa-globe" aria-hidden="true"></i>
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;">
+                    <select class="language-select" id="language-select-desktop" aria-label="{{ T `selectLanguage` }}" onchange="location = this.value;">
                         {{- if eq .Kind "404" -}}
                             {{- /* https://github.com/a-goodarzi/WeLoveIt/issues/378 */ -}}
                             {{- range .Sites -}}
@@ -126,7 +127,9 @@
                     <div class="search mobile" id="search-mobile">
                         <input type="text" placeholder="{{
                         .Site.Params.search.placeholder | default (T
-                        `searchPlaceholder`) }}" id="search-input-mobile" style="direction: {{ default `ltr`
+                        `searchPlaceholder`) }}" id="search-input-mobile"
+                        aria-label="{{ T `search` }}"
+                        style="direction: {{ default `ltr`
                         .Language.Direction }}">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="{{ T `search` }}">
                             <i class="fas fa-search" aria-hidden="true"></i>
@@ -159,7 +162,7 @@
             {{- if hugo.IsMultilingual -}}
                 <a href="javascript:void(0);" class="menu-item" title="{{ T "selectLanguage" }}">
                     <i class="fa fa-globe" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;">
+                    <select class="language-select" aria-label="{{ T `selectLanguage` }}" onchange="location = this.value;">
                         {{- if eq .Kind "404" -}}
                             {{- /* https://github.com/a-goodarzi/WeLoveIt/issues/378 */ -}}
                             {{- range .Sites -}}

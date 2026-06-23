@@ -15,11 +15,11 @@ header {
   }
 
   .logo, .header-title-pre {
-    padding-right: .25rem;
+    padding-inline-end: .25rem;
   }
 
   .header-title-post {
-    padding-left: .25rem;
+    padding-inline-start: .25rem;
   }
 
   &:hover {
@@ -38,7 +38,7 @@ header {
 .header-title {
   font-family: var(--header-title-font-family);
   font-weight: bold;
-  margin-right: .5rem;
+  margin-inline-end: .5rem;
   min-width: 10%;
   overflow: hidden;
   white-space: nowrap;
@@ -162,7 +162,9 @@ header {
   }
 
   .header-wrapper {
-    padding: 0 2rem 0 10vh;
+    padding-block: 0;
+    padding-inline-start: 10vh;
+    padding-inline-end: 2rem;
 
     .header-title {
       font-size: var(--header-title-font-size);
@@ -313,7 +315,7 @@ header {
 
       .search-cancel {
         display: none;
-        margin-left: .75rem;
+        margin-inline-start: .75rem;
       }
 
       .menu-item {

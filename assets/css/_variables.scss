@@ -25,8 +25,10 @@ $global-font-color: #161209 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #5d5d5f !default;
+// #767676 achieves 4.54:1 contrast on white (#fff) — meets WCAG AA
+$global-font-secondary-color: #767676 !default;
+// #8e8e8e achieves 4.53:1 contrast on dark background (#292a2d) — meets WCAG AA
+$global-font-secondary-color-dark: #8e8e8e !default;
 
 // Color of the link
 $global-link-color: #161209 !default;

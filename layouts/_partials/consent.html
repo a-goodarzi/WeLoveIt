@@ -1,5 +1,5 @@
 <div id="consent-notice"><span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span><button class="btn manage-consent">Manage preferences</button><button class="btn deny-consent">Deny</button><button class="btn approve-consent">Allow</button></div>
-<div id="consent-overlay">
+<div id="consent-overlay" role="dialog" aria-modal="true" aria-label="Cookie consent preferences">
     <div>
         {{ range $index, $item := .Site.Params.consent.items }}
             <div>
@@ -130,6 +130,11 @@
     document.getElementById("consent-overlay").addEventListener("click",function(e) {
         if (!document.querySelector("#consent-overlay > div").contains(e.target)){
             this.classList.remove('active');
+        }
+    });
+    document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape" && document.getElementById("consent-overlay").classList.contains("active")) {
+            document.getElementById("consent-overlay").classList.remove("active");
         }
     });
 </script>
